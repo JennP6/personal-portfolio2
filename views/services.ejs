@@ -1,83 +1,60 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
-    <!-- Font Awesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-pap3GZlG9+VJwUo4Kq2NqQeqQeT2cXQm1M6x+/O3e2bZV5IRqRlfj4l+El26bU2+Tjzj2ft2r4M6G9R6nqZ5eA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <% include partials/navbar %>
+<section class="services-page">
+  <h2>Services I Offer</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="icon-wrapper"><i class="fas fa-laptop-code fa-2x"></i></div>
+      <h3>Front-End Development</h3>
+      <p>Creating responsive, visually appealing websites with HTML, CSS, and JavaScript.</p>
+      <a href="/contact"><button class="primary-btn">Contact Me</button></a>
+    </div>
 
-    <section class="services-page">
-      <h2>Services I Offer</h2>
-      <div class="services-grid">
+    <div class="service-card">
+      <div class="icon-wrapper"><i class="fas fa-database fa-2x"></i></div>
+      <h3>Back-End Development</h3>
+      <p>Building server-side functionality using Node.js and Oracle SQL databases.</p>
+      <a href="/contact"><button class="primary-btn">Contact Me</button></a>
+    </div>
 
-        <div class="service-card">
-          <div class="icon-wrapper"><i class="fas fa-laptop-code fa-2x"></i></div>
-          <h3>Front-End Development</h3>
-          <p>Creating responsive, visually appealing websites with HTML, CSS, and JavaScript.</p>
-          <a href="/contact"><button class="primary-btn">Contact Me</button></a>
-        </div>
+    <div class="service-card">
+      <div class="icon-wrapper"><i class="fas fa-mobile-alt fa-2x"></i></div>
+      <h3>Mobile-Responsive Design</h3>
+      <p>Ensuring websites look great on all devices.</p>
+      <a href="/contact"><button class="primary-btn">Contact Me</button></a>
+    </div>
 
-        <div class="service-card">
-          <div class="icon-wrapper"><i class="fas fa-database fa-2x"></i></div>
-          <h3>Back-End Development</h3>
-          <p>Building server-side functionality using Node.js and Oracle SQL databases.</p>
-          <a href="/contact"><button class="primary-btn">Contact Me</button></a>
-        </div>
+    <div class="service-card">
+      <div class="icon-wrapper"><i class="fas fa-palette fa-2x"></i></div>
+      <h3>UI / UX Design</h3>
+      <p>Designing clean interfaces and user-friendly layouts for all applications.</p>
+      <a href="/contact"><button class="primary-btn">Contact Me</button></a>
+    </div>
 
-        <div class="service-card">
-          <div class="icon-wrapper"><i class="fas fa-mobile-alt fa-2x"></i></div>
-          <h3>Mobile-Responsive Design</h3>
-          <p>Ensuring websites look great on all devices.</p>
-          <a href="/contact"><button class="primary-btn">Contact Me</button></a>
-        </div>
+    <div class="service-card">
+      <div class="icon-wrapper"><i class="fas fa-search fa-2x"></i></div>
+      <h3>SEO & Performance</h3>
+      <p>Optimizing websites for speed and search visibility to attract more users.</p>
+      <a href="/contact"><button class="primary-btn">Contact Me</button></a>
+    </div>
 
-        <div class="service-card">
-          <div class="icon-wrapper"><i class="fas fa-palette fa-2x"></i></div>
-          <h3>UI / UX Design</h3>
-          <p>Designing clean interfaces and user-friendly layouts for all applications.</p>
-          <a href="/contact"><button class="primary-btn">Contact Me</button></a>
-        </div>
+    <div class="service-card">
+      <div class="icon-wrapper"><i class="fas fa-bug fa-2x"></i></div>
+      <h3>Accessibility & Testing</h3>
+      <p>Making websites accessible to everyone and ensuring optimal performance through testing.</p>
+      <a href="/contact"><button class="primary-btn">Contact Me</button></a>
+    </div>
 
-        <div class="service-card">
-          <div class="icon-wrapper"><i class="fas fa-search fa-2x"></i></div>
-          <h3>SEO & Performance</h3>
-          <p>Optimizing websites for speed and search visibility to attract more users.</p>
-          <a href="/contact"><button class="primary-btn">Contact Me</button></a>
-        </div>
+    <div class="service-card">
+      <div class="icon-wrapper"><i class="fas fa-chart-line fa-2x"></i></div>
+      <h3>Analytics & Reporting</h3>
+      <p>Tracking user engagement and providing actionable insights for web apps and sites.</p>
+      <a href="/contact"><button class="primary-btn">Contact Me</button></a>
+    </div>
 
-        <div class="service-card">
-          <div class="icon-wrapper"><i class="fas fa-bug fa-2x"></i></div>
-          <h3>Accessibility & Testing</h3>
-          <p>Making websites accessible to everyone and ensuring optimal performance through testing.</p>
-          <a href="/contact"><button class="primary-btn">Contact Me</button></a>
-        </div>
-
-        <div class="service-card">
-          <div class="icon-wrapper"><i class="fas fa-chart-line fa-2x"></i></div>
-          <h3>Analytics & Reporting</h3>
-          <p>Tracking user engagement and providing actionable insights for web apps and sites.</p>
-          <a href="/contact"><button class="primary-btn">Contact Me</button></a>
-        </div>
-
-        <div class="service-card">
-          <div class="icon-wrapper"><i class="fas fa-home fa-2x"></i></div>
-          <h3>Real Estate Support</h3>
-          <p>Creating listings, websites, and online tools tailored for realtors and property marketing.</p>
-          <a href="/contact"><button class="primary-btn">Contact Me</button></a>
-        </div>
-
-      </div>
-    </section>
-
-    <% include partials/footer %>
-  </body>
-</html>
+    <div class="service-card">
+      <div class="icon-wrapper"><i class="fas fa-home fa-2x"></i></div>
+      <h3>Real Estate Support</h3>
+      <p>Creating listings, websites, and online tools tailored for realtors and property marketing.</p>
+      <a href="/contact"><button class="primary-btn">Contact Me</button></a>
+    </div>
+  </div>
+</section>

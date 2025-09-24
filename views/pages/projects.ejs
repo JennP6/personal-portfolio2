@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <% include partials/navbar %>
+
+    <section class="projects-page">
+      <h2>Highlighted Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="/images/CustomizedStyle.png" alt="Customized Style" class="project-img" />
+          <h3>Customized Style</h3>
+          <p>A web page for purchasing customized merchandise - built as a school assignment.</p>
+          <p class="tech-stack"><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="project-card">
+          <img src="/images/MealPlanning.png" alt="Meal Planning App" class="project-img" />
+          <h3>Meal Planning App</h3>
+          <p>An interactive app to create weekly menu options, featuring drag-and-drop functionality - built as a school assignment.</p>
+          <p class="tech-stack"><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="project-card">
+          <img src="/images/EventRegistration.png" alt="Event Registration" class="project-img" />
+          <h3>Event Registration</h3>
+          <p>A website to register attendees for an event, built with a clean, user-friendly form layout - built as a school assignment.</p>
+          <p class="tech-stack"><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
+        </div>
+      </div>
+    </section>
+
+    <% include partials/footer %>
+  </body>
+</html>

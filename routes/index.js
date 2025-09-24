@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-  res.render('home', { title: 'Home' });
+  res.render('home', { title: 'Jennifer Peart' });
 });
 
 router.get('/about', function(req, res, next) {

@@ -15,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 app.use(expressLayouts); // <-- enable layouts
-app.set('layout', 'partials/layout'); // <-- path to your main layout
+app.set('layout', 'layout'); // <-- path to your main layout
 
 app.use(logger('dev'));
 app.use(express.json());

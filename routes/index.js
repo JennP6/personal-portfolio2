@@ -21,4 +21,9 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
 });
 
+router.post('/contact', function(req, res, next) {
+  console.log('Contact form data:', req.body);
+  res.redirect('/');
+});
+
 module.exports = router;

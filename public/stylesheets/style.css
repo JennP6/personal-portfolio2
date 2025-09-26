@@ -1,7 +1,7 @@
 /* File: style.css
  * Student Name: Jennifer Peart
  * StudentID: 821385531
- * Course: COMP229 FALL 2025 */
+ * Due Date: September 26, 2025 */
 
 /* Global Styles */
 
@@ -490,6 +490,7 @@ main {
 }
 
 /* Contact Form - Contact Page */
+
 .contact-form {
   flex: 1 1 500px;
   display: flex;
@@ -631,6 +632,7 @@ main {
 }
 
 /* Responsive Design Features */
+
 @media (max-width: 1000px) {
   .contact-wrapper {
     flex-direction: column;
@@ -656,13 +658,6 @@ main {
     justify-content: center;
   }
 }
-
-/* Navbar Links */
-
-.nav-links li a {
-  font-size: 1.25rem; /* bigger font */
-}
-
 
 /* Footer */
 

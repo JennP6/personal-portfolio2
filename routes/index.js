@@ -1,3 +1,8 @@
+/* File: index.js
+ * Student Name: Jennifer Peart
+ * StudentID: 821385531
+ * Due Date: September 26, 2025 */
+
 var express = require('express');
 var router = express.Router();
 
